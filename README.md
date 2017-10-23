@@ -7,7 +7,7 @@ Problem Statement: An organization wants to do campaign for different kinds of c
 
 Data file: Sample data file contains several fields comma separated. We are interested only last two fields which represent latitude and longitude. rest of the fields are simple ignored
 
-Solution: We have applied K-Means machine learning algorithm here. ML library is used for Spark
+Solution: I have applied K-Means machine learning algorithm here. ML library is used for Spark
 
 Preprocess: Data is real life. Hence, preprocessing and cleanup are required. There are entries where latitude = 0 and longitude = 0. However, in practical life it is not real that any customer stays in that kind of location. So, those entries are cleaned before processing.
 
